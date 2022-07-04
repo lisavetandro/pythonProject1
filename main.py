@@ -1,16 +1,36 @@
-# This is a sample Python script.
+#дз 1 урок 1
+a = int(input())
+if a > 0:
+    print("Положительное")
+elif a < 0:
+    print("Отрицательное")
+else:
+    print("Ноль")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#дз 2 урок 1
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+a = int(input())
+if a == 1:
+    print(31)
+elif a == 2:
+    print("Февраль")
+elif a == 3:
+    print(31)
+elif a == 4:
+    print(30)
+elif a == 5:
+    print(31)
+elif a == 6:
+    print(30)
+elif a == 7:
+    print(31)
+elif a == 8:
+    print(31)
+elif a == 9:
+    print(30)
+elif a == 10:
+    print(31)
+elif a == 11:
+    print(30)
+elif a == 12:
+    print(31)
